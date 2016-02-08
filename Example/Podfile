@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'CRParticleEffect_Example', :exclusive => true do
+  pod 'CRParticleEffect', :path => '../'
+end
