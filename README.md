@@ -1,7 +1,7 @@
 ## CRParticleEffect ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) <img src="https://www.cleveroad.com/public/comercial/label-ios.svg" height="20"> <a href="https://www.cleveroad.com/?utm_source=github&utm_medium=label&utm_campaign=contacts"><img src="https://www.cleveroad.com/public/comercial/label-cleveroad.svg" height="20"></a>
 
 #### A CocoaPod that simplifies creation of particle effects. Supplied with UIPanGestureRecognizer subclass.
-<img src="https://www.cleveroad.com/public/comercial/CRParticleEffect.gif"/>
+<img src="https://www.cleveroad.com/public/comercial/CRParticleEffect.gif">
 
 ## Installation
 
@@ -34,7 +34,7 @@ and run `pod install` in terminal.
         emitterCell.birthRate = 10 * (index + 1);
      }];
      ```
-  * ##### Set color for all particle effect's cells with layer's `color` property
+   * ##### Set color for all particle effect's cells with layer's `color` property
      ```objective-c
      particleEffectLayer.color = [[UIColor redColor] colorWithAlphaComponent:0.75f]
      ```
@@ -78,7 +78,7 @@ and run `pod install` in terminal.
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Support
-If you have any questions, please contact us for support at info@cleveroad.com (email subject: Â«CRParticleEffect support.Â»)
+If you have any questions, please contact us for support at info@cleveroad.com (email subject: «CRParticleEffect support.»)
 <br>or
 <br>Use our contacts:
 <br><a href="https://www.cleveroad.com/?utm_source=github&utm_medium=link&utm_campaign=contacts">Cleveroad.com</a>
