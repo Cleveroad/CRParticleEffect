@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "CRParticleEffect"
-  s.version          = "0.1.0"
+  s.version          = "0.0.2"
   s.summary          = "A UIPanGestureRecognizer subclass that provides particle effect on finger movement and simple CAEmitterLayer subclass"
   s.description      = <<-DESC
                        A CocoaPod that simplifies creation of the particle effects. Supplied with UIPanGestureRecognizer subclass. Customize particle effect for every touch on screen separately. Works with storyboards.
