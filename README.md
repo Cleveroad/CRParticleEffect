@@ -1,7 +1,8 @@
-## CRParticleEffect ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) <img src="https://www.cleveroad.com/public/comercial/label-ios.svg" height="20"> <a href="https://www.cleveroad.com/?utm_source=github&utm_medium=label&utm_campaign=contacts"><img src="https://www.cleveroad.com/public/comercial/label-cleveroad.svg" height="20"></a>
+## CRParticleEffect [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) <img src="https://www.cleveroad.com/public/comercial/label-ios.svg" height="20"> <a href="https://www.cleveroad.com/?utm_source=github&utm_medium=label&utm_campaign=contacts"><img src="https://www.cleveroad.com/public/comercial/label-cleveroad.svg" height="20"></a>
 
 #### A CocoaPod that simplifies creation of particle effects. Supplied with UIPanGestureRecognizer subclass.
-<img src="https://www.cleveroad.com/public/comercial/CRParticleEffect.gif">
+
+<img src="https://www.cleveroad.com/public/comercial/CRParticleEffect.gif" />
 
 ## Installation
 
@@ -14,7 +15,7 @@ pod "CRParticleEffect"
 
 and run `pod install` in terminal.
 
-```Obj-C
+```objective-c
 #import <CRparticleEffect/CRParticleEffect.h>
 ```
 
@@ -24,6 +25,7 @@ and run `pod install` in terminal.
      ```objective-c
      CRParticleEffectLayer *layer = [[CRParticleEffectLayer alloc] initWithImages:@[...]];
      ```
+     
      Note: By default `CRParticleEffectLayer` scales images respecting `[UIScreen mainScreen].scale`. Set layer's `contentScale` to change this behavior.
      
    * ##### Config `CAEmitterCell` for every image in array:
@@ -34,14 +36,16 @@ and run `pod install` in terminal.
         emitterCell.birthRate = 10 * (index + 1);
      }];
      ```
+     
    * ##### Set color for all particle effect's cells with layer's `color` property
      ```objective-c
      particleEffectLayer.color = [[UIColor redColor] colorWithAlphaComponent:0.75f]
      ```
+     
 * ### `CRMagicPanGestureRecognizer`
    * Supports storyboards;
    * Set `minimumNumberOfTouches` and `maximumNumberOfTouches` to limit number of active particle effects.
-   * Implement `CRMagicPanGestureRecognizerDelegate` to customize particle effects behavior .
+   * Implement `CRMagicPanGestureRecognizerDelegate` to customize particle effects behavior.
 * ### `CRMagicPanGestureRecognizerDelegate`
   ```objective-c
   - (CRParticleEffectLayer *)gestureRecognizer:(CRMagicPanGestureRecognizer *)gestureRecognizer
