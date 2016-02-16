@@ -4,6 +4,8 @@
 
 <img src="https://www.cleveroad.com/public/comercial/CRParticleEffect.gif" />
 
+We know how to add some visual allure to your mobile app and can't wait to share with you. Meet new open-source library for iOS applications created by Cleveroad. CRParticleEffect function will make any pan touch visually attractive and memorable by adding unique particle effect. To know all the advantages of CRParticleEffect library and find out how to implement it into your app, read our blog post - <a href="https://www.cleveroad.com/blog/how-we-created-particle-effect-for-ios-apps">How we created Particle Effect for iOS apps</a>
+
 ## Installation
 
 CRParticleEffect is available through [CocoaPods](http://cocoapods.org). To install
